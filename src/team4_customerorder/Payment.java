@@ -25,5 +25,9 @@ public class Payment {
     {
         return amount;
     }
+    public void display()
+    {
+        System.out.println("Payment Amount : "+amount);
+    }
     
 }
