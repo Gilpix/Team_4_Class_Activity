@@ -12,11 +12,38 @@ package team4_customerorder;
 public class OrderDetails {
     private int quantity;
     private String taxStatus;
+    private Order ord;
     
     public OrderDetails(int quant, String taxstatus)
     {
         quantity = quant;
         taxStatus = taxstatus;
+    }
+    
+    
+    public void Order(Order newOrder )
+    {
+        this.ord=newOrder;
+    }
+    
+    
+    public void setOrderQuantity(int quant)
+    {
+        quantity = quant;
+    }
+    
+    public void setOrderTaxStatus(String status)
+    {
+        taxStatus = status;
+    }
+    
+    public int getOrderQuantity()
+    {
+        return quantity;
+    }
+    public String getOrderTaxStatus()
+    {
+        return taxStatus;
     }
     
     
