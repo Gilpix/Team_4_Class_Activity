@@ -1,0 +1,28 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package team4_customerorder;
+
+/**
+ *
+ * @author temp
+ */
+public class Order {
+    
+    private String orderDate;
+    private String orderStatus;
+    
+    public Order(String date, String status)
+    {
+        orderDate=date;
+        orderStatus=status;
+    }
+    
+   
+    
+    
+    
+    
+}
