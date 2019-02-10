@@ -9,14 +9,15 @@ package team4_customerorder;
  *
  * @author temp
  */
-public class Check {
+public class Check extends Payment{
      
   private String payeeName;
   
   private String payeeBankID;
   
-  public Check (String pname,String pbankid)
-  {
+  public Check (String pname,String pbankid,float theAmount)
+  {  
+      super(theAmount);
       payeeName = pname;
       payeeBankID = pbankid;
       
