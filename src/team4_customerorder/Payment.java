@@ -12,4 +12,9 @@ package team4_customerorder;
 public class Payment {
     private float amount;
     
+    public Payment(float theAmount)
+    {
+        amount=theAmount;
+    }
+    
 }
