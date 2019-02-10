@@ -13,4 +13,9 @@ public class Cash {
     
     private float cashTendered;
     
+    public Cash (float tender)
+    {
+        cashTendered = tender;
+    }
+    
 }
