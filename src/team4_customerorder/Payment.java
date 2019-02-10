@@ -21,5 +21,13 @@ public class Payment {
     {
         amount=Amount;
     }
+    public float getamount()
+    {
+        return amount;
+    }
+    public void display()
+    {
+        System.out.println("Payment Amount : "+amount);
+    }
     
 }
