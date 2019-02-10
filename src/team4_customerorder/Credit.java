@@ -58,9 +58,9 @@ public class Credit extends Payment{
         System.out.println("credit Name =" + name + "Credit Type =" + type + "Credit Expiry Date =" + expDate);
     }
     
-    public void authorized()
+    public String authorized()
     {
-        System.out.println("Credit Authorized..!");
+        return "Credit Authorized..!";
     }
    
     
