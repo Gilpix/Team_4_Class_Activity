@@ -53,19 +53,19 @@ public class OrderDetails {
     }
     
     
-      public void calcSubTotal()
+      public String calcSubTotal()
      {
-         System.out.println("Total Order payment");
+         return "Total Order payment";
      }
       
-      public void calcWeight()
+      public String calcWeight()
       {
-          System.out.println("Total Weight of Product");
+          return "Total Weight of Product";
       } 
      
-     public void calcTax()
+     public String calcTax()
      {
-         System.out.println("Total Order Tax");
+        return "Total Order Tax";
      }
      
      
