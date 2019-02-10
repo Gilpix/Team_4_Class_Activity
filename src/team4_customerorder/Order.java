@@ -33,6 +33,13 @@ public class Order {
      {
          return orderStatus;
      }
+     
+     
+     public void calcSubTotal()
+     {
+         System.out.println("Total Order payment");
+     }
+     
    
     
     
