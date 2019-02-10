@@ -44,6 +44,13 @@ public class Order {
      {
          System.out.println("Total Order Tax");
      }
+     
+      public void calcTotal()
+     {
+         System.out.println("Total Order amount(without tax)");
+     }
+     
+     
    
     
     
