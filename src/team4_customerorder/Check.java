@@ -29,4 +29,12 @@ public class Check {
    {
       payeeBankID  = Payebankid ;
    }
+    public String getpayeName()
+    {
+        return payeeName;
+    }
+      public String getpayeBankid()
+      {
+          return payeeBankID;
+      }
 }
