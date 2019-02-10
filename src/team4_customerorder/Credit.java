@@ -9,9 +9,20 @@ package team4_customerorder;
  *
  * @author temp
  */
-public class Credit {
+public class Credit extends Payment{
     private String name;
     private String type;
     private String expDate;
     
+    public Credit(String theName,String theType,String theExpdate,float theAmount)
+    {
+        super(theAmount);
+        name=theName;
+        type=theType;
+        expDate=theExpdate;
+        
+        
+    }
+   
+    //this.ord=neworder
 }
