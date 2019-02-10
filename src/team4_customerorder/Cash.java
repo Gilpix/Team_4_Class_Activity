@@ -11,4 +11,6 @@ package team4_customerorder;
  */
 public class Cash {
     
+    private float cashTendered;
+    
 }
