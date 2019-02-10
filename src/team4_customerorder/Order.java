@@ -20,6 +20,42 @@ public class Order {
         orderStatus=status;
     }
     
+     public void setorderDate(String date)
+    {
+        orderDate = date;
+    }
+     
+     public String getOrderDate()
+     {
+         return orderDate;
+     }
+     public String getOrderStatus()
+     {
+         return orderStatus;
+     }
+     
+     
+     public void calcSubTotal()
+     {
+         System.out.println("Total Order payment");
+     }
+     
+     public void calcTax()
+     {
+         System.out.println("Total Order Tax");
+     }
+     
+      public void calcTotal()
+     {
+         System.out.println("Total Order amount(without tax)");
+     }
+      
+      public void calcTotalWeight()
+      {
+          System.out.println("Total Weight of Product");
+      }
+     
+     
    
     
     

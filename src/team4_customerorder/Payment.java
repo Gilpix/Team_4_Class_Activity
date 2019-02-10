@@ -9,13 +9,17 @@ package team4_customerorder;
  *
  * @author temp
  */
-public class Cash {
+public class Payment {
+    private float amount;
     
-    private float cashTendered;
-    
-    public Cash (float tender)
+    public Payment(float theAmount)
     {
-        cashTendered = tender;
+        amount=theAmount;
+    }
+    
+    public void setamount(float Amount)
+    {
+        amount=Amount;
     }
     
 }
