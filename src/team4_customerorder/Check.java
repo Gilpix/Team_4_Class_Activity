@@ -38,4 +38,8 @@ public class Check extends Payment{
       {
           return payeeBankID;
       }
+     public void checkAuthorized()
+     {
+         System.out.println("Check Authorized");
+     }
 }
