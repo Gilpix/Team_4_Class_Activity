@@ -13,6 +13,7 @@ public class OrderDetails {
     private int quantity;
     private String taxStatus;
     private Order ord;
+    private Items item;
     
     public OrderDetails(int quant, String taxstatus)
     {
@@ -24,6 +25,11 @@ public class OrderDetails {
     public void Order(Order newOrder )
     {
         this.ord=newOrder;
+    }
+    
+     public void Items(Items newItem )
+    {
+        this.item=newItem;
     }
     
     
