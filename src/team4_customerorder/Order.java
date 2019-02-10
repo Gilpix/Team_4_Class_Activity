@@ -49,6 +49,11 @@ public class Order {
      {
          System.out.println("Total Order amount(without tax)");
      }
+      
+      public void calcTotalWeight()
+      {
+          System.out.println("Total Weight of Product");
+      }
      
      
    
