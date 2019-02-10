@@ -17,4 +17,9 @@ public class Payment {
         amount=theAmount;
     }
     
+    public void setamount(float Amount)
+    {
+        amount=Amount;
+    }
+    
 }
