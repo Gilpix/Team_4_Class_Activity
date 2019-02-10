@@ -39,19 +39,19 @@ public class Items {
     }
     
     
-      public void getPriceForQuantity()
+      public String getPriceForQuantity()
      {
-         System.out.println("Quantity Price");
+         return "Quantity Price";
      }
       
-      public void getTax()
+      public String getTax()
       {
-          System.out.println("quantity Tax is");
+          return "quantity Tax is";
       } 
      
-     public void inStock()
+     public String inStock()
      {
-         System.out.println("quantity in stock");
+         return "quantity in stock";
      }
      
     
