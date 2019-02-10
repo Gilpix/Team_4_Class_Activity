@@ -26,6 +26,42 @@ public class Credit extends Payment{
     {
         this.amt=newAmt;
     } 
+    
+    public void setname(String theNm)
+    {
+        name=theNm;
+    }
+    public void settype(String theTp)
+    {
+        type=theTp;
+    }
+    public void setexp(String theExp)
+    {
+        expDate=theExp;
+    }
+    
+    
+    public String getname()
+    {
+        return name;
+    }
+    public String gettype()
+    {
+        return type;
+    }
+    public String getexp()
+    {
+        return expDate;
+    }
+    public void display()
+    {
+        System.out.println("credit Name =" + name + "Credit Type =" + type + "Credit Expiry Date =" + expDate);
+    }
+    
+    public void authorized()
+    {
+        System.out.println("Credit Authorized..!");
+    }
    
     
 }
