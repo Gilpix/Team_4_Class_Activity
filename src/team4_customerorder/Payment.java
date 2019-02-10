@@ -21,5 +21,9 @@ public class Payment {
     {
         amount=Amount;
     }
+    public float getamount()
+    {
+        return amount;
+    }
     
 }
