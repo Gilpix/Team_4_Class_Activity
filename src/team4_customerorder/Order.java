@@ -40,6 +40,10 @@ public class Order {
          System.out.println("Total Order payment");
      }
      
+     public void calcTax()
+     {
+         System.out.println("Total Order Tax");
+     }
    
     
     
