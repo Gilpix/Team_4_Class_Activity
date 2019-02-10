@@ -10,5 +10,6 @@ package team4_customerorder;
  * @author temp
  */
 public class Payment {
+    private float amount;
     
 }
