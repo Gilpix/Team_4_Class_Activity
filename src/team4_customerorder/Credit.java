@@ -20,12 +20,12 @@ public class Credit extends Payment{
         super(theAmount);
         name=theName;
         type=theType;
-        expDate=theExpdate;
+        expDate=theExpdate; 
     }
     public void Payment(Payment newAmt )
     {
         this.amt=newAmt;
-    }
+    } 
    
     
 }
