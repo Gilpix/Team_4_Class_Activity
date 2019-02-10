@@ -18,4 +18,12 @@ public class Customer {
         thename= name;
         theaddress= address;
     }
+    public void setnname(String name1)
+    {
+       name=name1; 
+    }
+    public void setnaddress(String address2)
+    {
+        address=address2;
+    }
 }

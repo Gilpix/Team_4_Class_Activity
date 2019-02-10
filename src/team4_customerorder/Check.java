@@ -11,5 +11,14 @@ package team4_customerorder;
  */
 public class Check {
      
-    
+  private String payeeName;
+  
+  private String payeeBankID;
+  
+  public Check (String pname,String pbankid)
+  {
+      payeeName = pname;
+      payeeBankID = pbankid;
+      
+  }
 }
