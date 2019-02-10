@@ -47,24 +47,24 @@ public class Order {
      }
      
      
-     public void calcSubTotal()
+     public String calcSubTotal()
      {
-         System.out.println("Total Order payment");
+         return "Total Order payment is 1250";
      }
      
-     public void calcTax()
+     public String calcTax()
      {
-         System.out.println("Total Order Tax");
+         return "Total Order Tax 12.5";
      }
      
-      public void calcTotal()
+      public String calcTotal()
      {
-         System.out.println("Total Order amount(without tax)");
+         return "Total Order amount(without tax) 1200$";
      }
       
-      public void calcTotalWeight()
+      public String calcTotalWeight()
       {
-          System.out.println("Total Weight of Product");
+          return "Total Weight of Product 55 Kg";
       }
      
      
