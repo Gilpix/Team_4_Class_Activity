@@ -9,12 +9,13 @@ package team4_customerorder;
  *
  * @author temp
  */
-public class Cash {
+public class Cash extends Payment{
     
     private float cashTendered;
     
-    public Cash (float tender)
+    public Cash (float tender,float theAmount)
     {
+         super(theAmount);
         cashTendered = tender;
     }
     public void setctender(float Tender)
