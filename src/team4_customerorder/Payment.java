@@ -11,10 +11,15 @@ package team4_customerorder;
  */
 public class Payment {
     private float amount;
+    private Order ord;
     
     public Payment(float theAmount)
     {
         amount=theAmount;
+    }
+    public void Order(Order newOrder )
+    {
+        this.ord=newOrder;
     }
     
     public void setamount(float Amount)
