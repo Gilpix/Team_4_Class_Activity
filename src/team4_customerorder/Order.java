@@ -32,6 +32,11 @@ public class Order {
         orderDate = date;
     }
      
+      public void setorderStstus(String status)
+    {
+        orderStatus = status;
+    }
+     
      public String getOrderDate()
      {
          return orderDate;
