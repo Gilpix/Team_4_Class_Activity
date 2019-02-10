@@ -13,11 +13,18 @@ public class Order {
     
     private String orderDate;
     private String orderStatus;
+    private Customer cust;
     
     public Order(String date, String status)
     {
         orderDate=date;
         orderStatus=status;
+    }
+    
+    
+    public void Customer(Customer newCustomer )
+    {
+        this.cust=newCustomer;
     }
     
      public void setorderDate(String date)
