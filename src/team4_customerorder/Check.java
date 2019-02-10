@@ -19,7 +19,7 @@ public class Check extends Payment{
   {  
       super(theAmount);
       payeeName = pname;
-      payeeBankID = pbankid;
+      payeeBankID =  pbankid;
       
   }
    public void setpyename(String Payename)
