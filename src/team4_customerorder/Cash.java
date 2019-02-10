@@ -17,5 +17,12 @@ public class Cash {
     {
         cashTendered = tender;
     }
-    
+    public void setctender(float Tender)
+    {
+        cashTendered = Tender;
+    }
+    public float getCtender()
+    {
+        return  cashTendered;
+    }
 }
