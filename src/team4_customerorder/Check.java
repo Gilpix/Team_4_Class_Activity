@@ -21,4 +21,12 @@ public class Check {
       payeeBankID = pbankid;
       
   }
+   public void setpyename(String Payename)
+   {
+       payeeName = Payename;
+   }
+    public void setpyebankid(String Payebankid)
+   {
+      payeeBankID  = Payebankid ;
+   }
 }
