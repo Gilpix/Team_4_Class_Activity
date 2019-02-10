@@ -20,6 +20,19 @@ public class Order {
         orderStatus=status;
     }
     
+     public void setorderDate(String date)
+    {
+        orderDate = date;
+    }
+     
+     public String getOrderDate()
+     {
+         return orderDate;
+     }
+     public String getOrderStatus()
+     {
+         return orderStatus;
+     }
    
     
     
