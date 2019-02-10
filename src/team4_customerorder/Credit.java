@@ -10,5 +10,8 @@ package team4_customerorder;
  * @author temp
  */
 public class Credit {
+    private String name;
+    private String type;
+    private String expDate;
     
 }

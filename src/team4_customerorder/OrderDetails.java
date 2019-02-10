@@ -47,6 +47,27 @@ public class OrderDetails {
     }
     
     
+      public void calcSubTotal()
+     {
+         System.out.println("Total Order payment");
+     }
+      
+      public void calcWeight()
+      {
+          System.out.println("Total Weight of Product");
+      } 
+     
+     public void calcTax()
+     {
+         System.out.println("Total Order Tax");
+     }
+     
+     
+      
+     
+     
+    
+    
     
     
 }

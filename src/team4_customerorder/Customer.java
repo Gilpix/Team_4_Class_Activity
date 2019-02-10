@@ -26,4 +26,12 @@ public class Customer {
     {
         address=address2;
     }
+    public String getnname()
+    {
+        return name;
+    }
+    public String getnaddress()
+    {
+        return address;
+    }
 }
