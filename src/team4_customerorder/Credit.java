@@ -13,6 +13,7 @@ public class Credit extends Payment{
     private String name;
     private String type;
     private String expDate;
+    private Payment amt;
     
     public Credit(String theName,String theType,String theExpdate,float theAmount)
     {
@@ -20,9 +21,11 @@ public class Credit extends Payment{
         name=theName;
         type=theType;
         expDate=theExpdate;
-        
-        
+    }
+    public void Payment(Payment newAmt )
+    {
+        this.amt=newAmt;
     }
    
-    //this.ord=neworder
+    
 }
