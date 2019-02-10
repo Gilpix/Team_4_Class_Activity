@@ -19,4 +19,40 @@ public class Items {
         shippingDesc=shipDesc;
     }
     
+    public void setShpWeight(int weight)
+    {
+        shippingWeight=weight;
+    }
+    public void setShpDesc(String desc)
+    {
+        shippingDesc=desc;
+    }
+    
+    public int getShpWeight()
+    {
+        return shippingWeight;
+    }
+    
+    public String getShpDesc()
+    {
+        return shippingDesc;
+    }
+    
+    
+      public void getPriceForQuantity()
+     {
+         System.out.println("Quantity Price");
+     }
+      
+      public void getTax()
+      {
+          System.out.println("quantity Tax is");
+      } 
+     
+     public void inStock()
+     {
+         System.out.println("quantity in stock");
+     }
+     
+    
 }
