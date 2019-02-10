@@ -9,13 +9,7 @@ package team4_customerorder;
  *
  * @author temp
  */
-public class Customer {
-    private String name;
-    private String address;
+public class Check {
+     
     
-    public Customer(String thename,String theaddress)
-    {
-        thename= name;
-        theaddress= address;
-    }
 }
