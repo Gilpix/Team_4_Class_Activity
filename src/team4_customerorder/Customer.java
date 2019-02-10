@@ -13,4 +13,9 @@ public class Customer {
     private String name;
     private String address;
     
+    public Customer(String thename,String theaddress)
+    {
+        thename= name;
+        theaddress= address;
+    }
 }
